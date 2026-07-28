@@ -1,4 +1,4 @@
-# --- COMPTEURS D'IDENTIFIANTS UNIQUES ---
+#*** COMPTEURS D'IDENTIFIANTS UNIQUES***
 _compteur_article_id = 0
 _compteur_commande_id = 0
 _compteur_client_id = 0
@@ -25,7 +25,7 @@ def generer_id_client():
     return _compteur_client_id
 
 
-# --- LOGIQUE MÉTIER / CALCUL AUTOMATIQUE ---
+#*** LOGIQUE MÉTIER / CALCUL AUTOMATIQUE***
 
 def calculer_statut(quantite, seuil_alerte):
     """
@@ -39,7 +39,7 @@ def calculer_statut(quantite, seuil_alerte):
         return "Disponible"
 
 
-# --- CONSTRUCTEURS DE DICTIONNAIRES ---
+#*** CONSTRUCTEURS DE DICTIONNAIRES***
 
 def creer_article(sku, nom, marque, pointure, prix, quantite, couleur, seuil_alerte=3):
     """
