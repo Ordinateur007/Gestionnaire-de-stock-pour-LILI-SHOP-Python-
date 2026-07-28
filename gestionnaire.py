@@ -24,7 +24,7 @@ def afficher_stock():
         print("\n📦 Le stock est actuellement vide.")
         return
 
-    print("\n********** 📦 STOCK ACTUEL LILI-SHOP **********")
+    print("\n************ 📦 STOCK ACTUEL LILI-SHOP ************")
     for art in stock_articles:
         # Indication visuelle si le stock est bas ou en rupture
         indicateur = ""
