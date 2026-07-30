@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "sku": "LILI-BSK-N-42",
+        "nom": "Air Nike",
+        "marque": "Nike",
+        "pointure": 42,
+        "prix": 15000.0,
+        "quantite": 10,
+        "couleur": "Noire",
+        "seuil_alerte": 3,
+        "statut": "Disponible"
+    }
+]
